@@ -1,0 +1,27 @@
+{
+  "NextPage": {
+    "prefix": "np",
+    "body": [
+      "export default function $1Page() {",
+      "\treturn <div>$0</div>;",
+      "}",
+      "",
+    ],
+    "description": "Generate a NextPage template",
+  },
+
+  "NextPage with server-side fetching": {
+    "prefix": "npserv",
+    "body": [
+      "import db from \"~/server/db\";",
+      "",
+      "export default async function $1Page() {",
+      "\tconst res = await db.$2",
+      "",
+      "\treturn <div>$0</div>;",
+      "}",
+      "",
+    ],
+    "description": "Generate a NextPage template",
+  },
+}

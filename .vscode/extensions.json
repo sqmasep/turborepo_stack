@@ -1,0 +1,17 @@
+{
+  "recommendations": [
+    // Essentials
+    "dbaeumer.vscode-eslint", // ESLint
+    "esbenp.prettier-vscode", // Prettier
+    "aaron-bond.better-comments", // Better comments
+    "wayou.vscode-todo-highlight", // Highlight, see section #3
+    "usernamehw.errorlens", // Error Lens: display the errors to the screen directly
+    // "wix.vscode-import-cost", // Import cost: size of the imported variables. WARN: uncomment this at your own risk: it blocks VSCode when loading
+    "eamodio.gitlens", // Git history, blame, ...
+    "yoavbls.pretty-ts-errors", // Better TS errors explanations
+
+    "formulahendry.auto-close-tag", // Close HTML tags automatically
+    "formulahendry.auto-rename-tag", // Rename HTML tags automatically
+    "meganrogge.template-string-converter" // Convert "" to `` when typing ${
+  ]
+}
