@@ -1,10 +1,11 @@
-# Turborepo stack
+# eskiu's turborepo stack
 
 This repo can be used as a template for monorepos that will require:
 
 - A design-system
 - A shared database between services (APIs, webapps, dashboards...)
-- Library versionnning
+- A library versionning system
+- Strong conventions
 
 Why?
 
@@ -15,6 +16,7 @@ I needed a template that fits all of those requirements, using my tech stack. Af
 - Tailwind-variants
 - Shadcn-ui (or at least radix-ui)
 - Prisma
+- Valibot
 - Dayjs
 - Vitest + Playwright
 
