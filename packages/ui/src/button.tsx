@@ -6,8 +6,9 @@ const button = tv({
   base: "",
   variants: {
     variant: {
-      red: "bg-red-500 text-salt-500",
-      blue: "bg-blue-500 text-salt-500",
+      // TODO see if i keep this prefix
+      red: "ui-bg-red-500 ui-text-salt-500",
+      blue: "ui-bg-blue-500 ui-text-salt-500",
     },
   },
 });

@@ -9,10 +9,6 @@ const config = {
     "./src/**/*.{ts,tsx}",
   ],
   presets: [uiConfig],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
 } satisfies Config;
 
 export default config;

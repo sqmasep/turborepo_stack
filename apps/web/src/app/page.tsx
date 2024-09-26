@@ -1,12 +1,12 @@
-import Image from "next/image";
 import { Button } from "@repo/ui/button";
-import "@repo/ui/dist/styles.css";
+import "@repo/ui/styles.css";
 
 export default function Home() {
   return (
     <div>
       <main>
-        <Button variant="blue">testok</Button>
+        <p className="bg-salt-500 text-red-500">test</p>
+        <Button variant="red">testok</Button>
       </main>
       <footer></footer>
     </div>
