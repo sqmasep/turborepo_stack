@@ -1,20 +1,25 @@
 "use client";
 
-import { ReactNode } from "react";
+import { VariantProps, tv } from "tailwind-variants";
 
-interface ButtonProps {
-  children: ReactNode;
-  className?: string;
-  appName: string;
-}
+const button = tv({
+  base: "",
+  variants: {
+    variant: {
+      red: "bg-red-500 text-salt-500",
+      blue: "bg-blue-500 text-salt-500",
+    },
+  },
+});
 
-export const Button = ({ children, className, appName }: ButtonProps) => {
+export function Button({
+  children,
+  variant,
+  ...props
+}: React.ComponentProps<"button"> & VariantProps<typeof button>) {
   return (
-    <button
-      className={className}
-      onClick={() => alert(`Hello from your ${appName} app!`)}
-    >
+    <button className={button({ variant })} {...props}>
       {children}
     </button>
   );
-};
+}
