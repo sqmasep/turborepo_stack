@@ -7,6 +7,9 @@
     "lint": "eslint . --max-warnings 0",
     "dev": "tsup src/* --watch"
   },
+  "exports": {
+    "./email-schema": "./src/email-schema.ts"
+  },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
